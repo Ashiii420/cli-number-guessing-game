@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 const randomNumber = Math.floor(Math.random() * 10+1);
+console.log("Welcome to Number guessing game");
 const answer= await inquirer.prompt([
 {
     name: "userGuessedNumber",
